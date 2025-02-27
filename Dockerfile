@@ -9,8 +9,6 @@ RUN apt-get update && apt-get install -y \
     gcc \
     libssl-dev \
     libffi-dev \
-    libsqlite3-dev \
-    sqlite3 \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory in the container
